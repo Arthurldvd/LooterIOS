@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    var loot = ["Epée", "Bouclier", "Armure"]
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -18,6 +20,8 @@ struct ContentView: View {
         .padding()
     }
 }
+
+
 
 #Preview {
     ContentView()
