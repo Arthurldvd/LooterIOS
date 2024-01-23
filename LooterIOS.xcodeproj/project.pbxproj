@@ -19,6 +19,9 @@
 		1C000E1F2B5AAB24002AB854 /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E1E2B5AAB24002AB854 /* LootItem.swift */; };
 		1C000E212B5AAD91002AB854 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E202B5AAD91002AB854 /* Game.swift */; };
 		1C000E232B5AC9A2002AB854 /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E222B5AC9A2002AB854 /* LootDetailView.swift */; };
+		1C8F85DF2B5FC22E006065E0 /* LootRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F85DE2B5FC22E006065E0 /* LootRow.swift */; };
+		1C8F85E12B5FC54E006065E0 /* DetailRowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F85E02B5FC54E006065E0 /* DetailRowImage.swift */; };
+		1C8F85E32B5FC705006065E0 /* ListRowDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F85E22B5FC705006065E0 /* ListRowDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		1C000E1E2B5AAB24002AB854 /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
 		1C000E202B5AAD91002AB854 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		1C000E222B5AC9A2002AB854 /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
+		1C8F85DE2B5FC22E006065E0 /* LootRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootRow.swift; sourceTree = "<group>"; };
+		1C8F85E02B5FC54E006065E0 /* DetailRowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowImage.swift; sourceTree = "<group>"; };
+		1C8F85E22B5FC705006065E0 /* ListRowDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		1C000DE42B5A78AD002AB854 = {
 			isa = PBXGroup;
 			children = (
+				1C8F85E22B5FC705006065E0 /* ListRowDetails.swift */,
 				1C000DEF2B5A78AD002AB854 /* LooterIOS */,
 				1C000E002B5A78AF002AB854 /* LooterIOSTests */,
 				1C000E0A2B5A78AF002AB854 /* LooterIOSUITests */,
@@ -105,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				1C000E222B5AC9A2002AB854 /* LootDetailView.swift */,
+				1C8F85E02B5FC54E006065E0 /* DetailRowImage.swift */,
+				1C8F85DE2B5FC22E006065E0 /* LootRow.swift */,
 				1C000E1E2B5AAB24002AB854 /* LootItem.swift */,
 				1C000E202B5AAD91002AB854 /* Game.swift */,
 				1C000E1A2B5A8120002AB854 /* AddItemView.swift */,
@@ -277,7 +286,10 @@
 				1C000E1B2B5A8120002AB854 /* AddItemView.swift in Sources */,
 				1C000DF12B5A78AD002AB854 /* LooterIOSApp.swift in Sources */,
 				1C000E1D2B5AAA7A002AB854 /* RarityEnum.swift in Sources */,
+				1C8F85E32B5FC705006065E0 /* ListRowDetails.swift in Sources */,
 				1C000E232B5AC9A2002AB854 /* LootDetailView.swift in Sources */,
+				1C8F85E12B5FC54E006065E0 /* DetailRowImage.swift in Sources */,
+				1C8F85DF2B5FC22E006065E0 /* LootRow.swift in Sources */,
 				1C000E1F2B5AAB24002AB854 /* LootItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D98D8E37-3938-4DCB-B659-A9C017ED9945"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A55ACCB5-BB9F-4B88-93CF-1F7AD989A39E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LooterIOS/DetailRowImage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A55ACCB5-BB9F-4B88-93CF-1F7AD989A39E - cab1c1d0c73a1975"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.rotation3DEffect(_: SwiftUI.Angle, axis: (x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat, z: CoreGraphics.CGFloat), anchor: SwiftUI.UnitPoint, anchorZ: CoreGraphics.CGFloat, perspective: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in LooterIOS.DetailRowImage.body.getter : some"
+                  moduleName = "LooterIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledeveda/Desktop/LooterIOS/LooterIOS/DetailRowImage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "3904">
+               </Location>
+               <Location
+                  uuid = "A55ACCB5-BB9F-4B88-93CF-1F7AD989A39E - 7ee4bbaea0a6a31a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.rotation3DEffect(_: SwiftUI.Angle, axis: (x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat, z: CoreGraphics.CGFloat), anchor: SwiftUI.UnitPoint, anchorZ: CoreGraphics.CGFloat, perspective: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in LooterIOS.DetailRowImage.body.getter : some"
+                  moduleName = "LooterIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledeveda/Desktop/LooterIOS/LooterIOS/DetailRowImage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

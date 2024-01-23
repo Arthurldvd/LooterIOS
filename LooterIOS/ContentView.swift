@@ -1,4 +1,6 @@
 import SwiftUI
+import Charts
+
 
 class Inventory : ObservableObject {
     @Published var loot = items
@@ -20,18 +22,7 @@ struct ContentView: View {
                         LootDetailView(item: item) 
                     }
             label: {
-                VStack(alignment: .leading) {
-                   
-                    HStack {
-                        Circle()
-                            .fill(item.rarity.getColor())
-                            .frame(width: 12, height: 12)
-                        Text(item.name).font(.headline)
-                        Spacer()
-                        Text(item.type.getLogo()) // Logo placé à droite
-                        }
-                    Text("Quantité : \(item.quantity)")
-                }
+                ItemInfoView(item: item)
             }
             }
                 
@@ -48,8 +39,20 @@ struct ContentView: View {
                     })
                 }
             }
+            Chart{
+                ForEach(inventory.loot, id: \.self) { item in
+                    BarMark(
+                        x: .value("Arme",item.name),
+                        y: .value("Force",item.attackStrength ?? 0)
+                    )
+                }
+            }
+            .frame(height:200)
+          
         }
+      
     }
+    
 }
 
 #Preview {
