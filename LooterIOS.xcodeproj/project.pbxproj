@@ -14,6 +14,11 @@
 		1C000E022B5A78AF002AB854 /* LooterIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E012B5A78AF002AB854 /* LooterIOSTests.swift */; };
 		1C000E0C2B5A78AF002AB854 /* LooterIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E0B2B5A78AF002AB854 /* LooterIOSUITests.swift */; };
 		1C000E0E2B5A78AF002AB854 /* LooterIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E0D2B5A78AF002AB854 /* LooterIOSUITestsLaunchTests.swift */; };
+		1C000E1B2B5A8120002AB854 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E1A2B5A8120002AB854 /* AddItemView.swift */; };
+		1C000E1D2B5AAA7A002AB854 /* RarityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E1C2B5AAA7A002AB854 /* RarityEnum.swift */; };
+		1C000E1F2B5AAB24002AB854 /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E1E2B5AAB24002AB854 /* LootItem.swift */; };
+		1C000E212B5AAD91002AB854 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E202B5AAD91002AB854 /* Game.swift */; };
+		1C000E232B5AC9A2002AB854 /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C000E222B5AC9A2002AB854 /* LootDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		1C000E072B5A78AF002AB854 /* LooterIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooterIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C000E0B2B5A78AF002AB854 /* LooterIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterIOSUITests.swift; sourceTree = "<group>"; };
 		1C000E0D2B5A78AF002AB854 /* LooterIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C000E1A2B5A8120002AB854 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		1C000E1C2B5AAA7A002AB854 /* RarityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RarityEnum.swift; sourceTree = "<group>"; };
+		1C000E1E2B5AAB24002AB854 /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		1C000E202B5AAD91002AB854 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1C000E222B5AC9A2002AB854 /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,11 @@
 		1C000DEF2B5A78AD002AB854 /* LooterIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1C000E222B5AC9A2002AB854 /* LootDetailView.swift */,
+				1C000E1E2B5AAB24002AB854 /* LootItem.swift */,
+				1C000E202B5AAD91002AB854 /* Game.swift */,
+				1C000E1A2B5A8120002AB854 /* AddItemView.swift */,
+				1C000E1C2B5AAA7A002AB854 /* RarityEnum.swift */,
 				1C000DF02B5A78AD002AB854 /* LooterIOSApp.swift */,
 				1C000DF22B5A78AD002AB854 /* ContentView.swift */,
 				1C000DF42B5A78AF002AB854 /* Assets.xcassets */,
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C000DF32B5A78AD002AB854 /* ContentView.swift in Sources */,
+				1C000E212B5AAD91002AB854 /* Game.swift in Sources */,
+				1C000E1B2B5A8120002AB854 /* AddItemView.swift in Sources */,
 				1C000DF12B5A78AD002AB854 /* LooterIOSApp.swift in Sources */,
+				1C000E1D2B5AAA7A002AB854 /* RarityEnum.swift in Sources */,
+				1C000E232B5AC9A2002AB854 /* LootDetailView.swift in Sources */,
+				1C000E1F2B5AAB24002AB854 /* LootItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
