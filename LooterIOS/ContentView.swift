@@ -12,20 +12,20 @@ class Inventory : ObservableObject {
 
 struct ContentView: View {
     @StateObject var inventory = Inventory()
-    
     @State var showAddItemView = false
-
+    @Binding var isOnboardingDone: Bool
+    
     var body: some View {
         NavigationStack {
             List(inventory.loot, id: \.self) { item in
                 NavigationLink {
-                        LootDetailView(item: item) 
-                    }
+                    LootDetailView(item: item)
+                }
             label: {
                 ItemInfoView(item: item)
             }
             }
-                
+            
             .sheet(isPresented: $showAddItemView, content: {
                 AddItemView().environmentObject(inventory)
             })
@@ -48,14 +48,18 @@ struct ContentView: View {
                 }
             }
             .frame(height:200)
-          
+            
+            
+            Button(action: {
+                isOnboardingDone = false
+            }, label: {
+                Text("OnBoarding = true")
+                Image(systemName: "xmark.square.fill")
+            })
+            
         }
-      
+        
     }
     
-}
-
-#Preview {
-    ContentView()
 }
 
